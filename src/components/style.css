@@ -1,0 +1,68 @@
+.jobcard {
+  margin: 30px 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.jobfeed {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.contact-us {
+  height: 100vh;
+  background-color: blueviolet;
+}
+
+.company {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.company img {
+  width: 5rem;
+}
+
+.company h5 {
+  padding-left: 1rem;
+}
+
+#search_bar {
+  padding-top: 24px;
+  padding-bottom: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+#search_bar .has_cross_and_button {
+  width: 512px;
+}
+
+.form-control,
+.has_cross_and_button {
+  line-height: 1.14285714;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+#search_bar .has_cross_and_button .input-group-btn .btn-input {
+  min-width: 0;
+  padding: 0 12px !important;
+  height: 48px;
+  width: 48px;
+}
+
+.has_cross_and_button .input-group-btn.search_btn_container .btn-input {
+  border-radius: 0 3px 3px 0;
+}
